@@ -1,0 +1,300 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: sans-serif;
+}
+
+#nav-bar{
+	position: sticky !important;   /*not working*/
+	top: 0 !important;
+	z-index: 10 !important;
+}
+.logo{
+	color: #0000FF;
+}
+.navbar{
+	background-color: #0f1d37;
+	padding: 0 !important;
+}
+.current{
+	font-size: 30px;
+	color: #000000;
+}
+.navbar-nav li{
+	padding: 0 10px;
+}
+.navbar-nav li a {
+	color: #fff !important;
+	font-weight: 600;
+	float: right;
+	text-align: left;
+}
+.fa-bars{
+	color: #fff;
+	font-size: 30px !important;
+}
+.navbar-toggler {
+	outline: none !important;
+}
+
+
+/*-------banner---*/
+#banner{
+	background-color: #0f1d37;
+	color: #fff;
+	padding-top: 5%;
+}
+
+#banner h2{
+	margin-top: 30px;
+}
+.play-btn{
+	width: 45px;
+	margin:20px;
+  background:transparent;
+}
+#banner a{
+	color: #fff;
+	text-decoration: none;
+}
+.current{
+	color:#ffffff;
+}
+.img-fluid{
+	padding-bottom: 10px;
+}
+/*--- services section---*/
+#services{
+	padding: 80px 0;
+	background-color: #0f1d37;
+	color: #fff;
+}
+#services h1, .services h1 {
+	text-align: center;
+	margin-top: 10px;
+}
+#services p{
+	margin-left: 150px;
+
+}
+.embed-responsive-item{
+	margin: 20px;
+}
+.btn-danger{
+	margin-left: 150px;
+}
+.services{
+	padding: 80px 0;
+	background-color: #0f1d37;
+	color: #fff;
+}
+.header{
+	color: black;
+}
+.btn-sm{
+	margin-bottom: 30px;
+	margin-left:10px;
+}
+.bg{
+	background-color: #0f1d37;
+	color: #fff;
+}
+.underline::before{    /*not working*/
+	content:'';
+	background-color: #fff;
+	height: 5px;
+	width: 200px;
+margin-left: auto;
+margin-right: auto;
+	transform:translateY(63px);
+}
+
+/*-------social media {
+
+}--*/
+#social-media {
+	background-color:#0f1d37 ;
+	padding:100px 0;
+	color: #fff;
+}
+#social-media p {
+	font-size: 36px;
+	font-weight: 600;
+	margin-bottom:30px;
+}
+#social-media a {
+	text-decoration: none;
+	color: #fff;
+	transition: 0.5s;
+}
+#social-media a:hover {
+		background-color: #000;
+}
+.social-icons img{
+	width: 60px;
+	transition: 0.5s;
+}
+.social-icons a:hover img {
+	transform: translateY(-10px);
+}
+.col-md-12{
+	margin-top: 20px;
+
+}
+ hr{
+	 background-color: #fff;
+ }
+
+ /* ----- contact section ------*/
+
+ #fname, #lname, select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+	background-color: #fff;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container-1 {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+	margin: 30px;
+}
+h3, p, address{
+	margin-left: 30px;
+	padding-top:10px;
+}
+
+
+
+/*-----Account section----*/
+.container-2 {
+  padding: 16px;
+  background-color: white;
+}
+.center{
+	margin:0;
+}
+ adress{
+	margin-left: 30px;
+}
+
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+.registerbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity: 1;
+}
+
+
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+}
+
+
+/*...........gallery.......*/
+#gallery-header{
+		background-color: #0f1d37 ;
+		color: #fff;
+		padding: 32px;
+		text-align: center;
+}
+
+.gallery-container {
+		background-color: #0f1d37 ;
+	display: flex;
+  flex-wrap: wrap;
+		  padding: 5px;
+			justify-content: space-around;
+
+
+}
+.item{
+	margin: 15px;
+	width: 30%;
+}
+
+
+
+
+@media screen and (max-width: 800px) {
+  .item {
+    flex: 50%;
+            max-width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+
+
+
+
+
+
+
+
+@font-face {
+font-family: Itim-Regular;
+src: url("font/Itim-Regular.ttf");
+}
+ h2, h1, .header, .navbar-brand{
+	font-family: Itim-Regular;
+
+}
